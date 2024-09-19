@@ -3,28 +3,40 @@
   /* Haz uso de nomenclaturas correctas en la variables
      mantener los nombres dados
   */
- 
+  class WordToWord {
 
-  class word_to_word {}
+  }
 
-  interface props {}
+  interface Props {
 
-  type moves = {}
+  }
 
-  function GET_FOOD() {}
+  type Moves = {
 
-  function SETPRODUCTNAME() {}
+  }
 
-  type directions = {}
+  function getFood() {
 
-  interface IDBPROPS {}
+  }
 
-  class ATOBTOC {}
+  function setProductName() {
+
+  }
+
+  type Directions = {
+
+  }
+
+  interface IDBProps {
+
+  }
+
+  class AtoBtoC {
+
+  }
 
   // los 2 valores siguientes son constantes.
-
-  const constant_one = 3;
-
-  let constant_two = 4;
+  const CONSTANT_ONE = 3;
+  const CONSTANT_TWO = 4;
 
 })();

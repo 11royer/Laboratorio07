@@ -1,20 +1,15 @@
 (() => {
 
   /* APLICA DRY */
-  
   //EX - 1
-  
-  function calculateOperation1(a: number, b: number, c: number): number {
-    let sumResult = a + b;
-    let multiplicationResult = sumResult * c;
+  function calculateOperation(a: number, b: number, c: number): number {
+    const sumResult = a + b;
+    const multiplicationResult = sumResult * c;
     return multiplicationResult;
   }
 
-  function calculateOperation2(x: number, y: number, z: number): number {
-    let sumResult = x + y;
-    let multiplicationResult = sumResult * z;
-    return multiplicationResult;
-  }
+  const result1 = calculateOperation(2, 3, 4); // Usa valores de ejemplo
+  console.log(result1);
 
   // EX - 2
   function calculateRectangleArea(length: number, width: number): number {
@@ -26,7 +21,7 @@
   }
 
   // EX - 3
-  //No es necesario aumentar codigo en este ejercicio
+  // No es necesario aumentar código en este ejercicio
   function validateEmail(email: string): boolean {
     //...some code for validate here
     return false;
